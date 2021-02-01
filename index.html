@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>¿Qué Pokémon eres?</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="images/pika.ico">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="father" id="pokemon-list">
+        <h1>¡Este Pokémon eres tu!</h1>
+        <div class="pokemon" id="pokemon-view">
+            <img src="" alt="">
+            <div>
+                <label>Id: <span></span></label>
+                <label>Nombre: <span></span></label>
+                <label>XP Base: <span></span></label>
+                <label>Habilidad: <span></span></label>
+                <label>Mejor Movimiento: <span></span></label>
+                <label>Vida: <span></span></label>
+                <label>Ataque: <span></span></label>
+                <label>Defensa: <span></span></label>
+                <label>Rapidez: <span></span></label>
+            </div>
+            <a onclick="pokemonsIdRandoms()" type="button" class="btn btn-info">Cargar otro</a>
+        </div>
+
+        <div class="wave">
+            <img src="images/backgro.png">
+        </div>
+
+    </div>
+
+    <script src='js/pokemon.js'></script>
+</body>
+
+</html>
